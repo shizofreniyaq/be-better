@@ -3,6 +3,7 @@
 	background-size: cover;
 	padding-top: 296px;
 	padding-bottom: 234px;
+	max-height: 1000px;
 }
 
 .header {
@@ -98,6 +99,7 @@ cursor: pointer;
 	border-radius: 26px;
 	padding:18px 40px 21px 40px;
 	margin: 47px 0px 0px 20px;
+	cursor: pointer;
  }
 
 
@@ -110,6 +112,35 @@ cursor: pointer;
  	color: black;
  }
 
+.header2 {
+	position: absolute;
+width: 807px;
+height: 711px;
+top: 1000px;
+left: 0px;
+z-index: 3;
+}
+.back {
+position: absolute;
+width: 1456px;
+height: 710px;
+left: 342px;
+top: 1004px;
+
+background: #F1F0EC;
+
+}
 
 
- 
+.us {
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 52px;
+line-height: 61px;
+color: #113442;
+z-index: 2;
+}
+
+
+
