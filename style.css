@@ -93,23 +93,21 @@ cursor: pointer;
 	text-align: center;
 	padding-left:5px;	
 	letter-spacing: 1.5px;
-	color: #FFFFFF;
+	color: red;
+	background: #26BA7E;
+	border-radius: 26px;
+	padding:18px 40px 21px 40px;
+	margin: 47px 0px 0px 20px;
  }
 
- .read2 {
- 	position: absolute;
-left: 16.53%;
-right: 71.59%;
-top: 69.73%;
-bottom: 25.07%;
 
-background: #26BA7E;
-border-radius: 26px;
+ .read a {
+ 	color:#FFFFFF;
  }
 
- .read:hover {
- 	color: black;
+ .read a:hover {
  	text-decoration: none;
+ 	color: black;
  }
 
 
