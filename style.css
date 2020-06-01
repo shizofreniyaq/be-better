@@ -1,0 +1,98 @@
+.background_first {
+	background: url(images/header.jpg) no-repeat 50% 0%;
+	background-size: cover;
+	padding-top: 296px;
+	padding-bottom: 234px;
+}
+
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 56px 20px 10px;
+	z-index: 1;
+}
+
+.logo1 {
+	display: inline-block;
+}
+
+.thecompany{
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 55px;
+	
+
+
+	letter-spacing: -0.343678px;
+
+	color: #FFFFFF;
+	cursor: pointer;
+	
+}
+
+.welcome {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 55px;
+
+
+	letter-spacing: 2.8px;
+
+	color: #26BA7E;
+}
+
+.shadow {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 96px;
+	line-height: 106px;
+
+
+
+	color: #FFFFFF;
+}
+
+.about {
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 23px;
+margin-top:-45px;
+text-align: right;
+display: block;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.ul.hr {
+    padding: 4px; 
+    margin-top: -40px;
+   }
+   ul.hr li {
+    display: inline; 
+    margin-right: 5px;  
+    padding: 6px; 
+   }
+
+ .read {
+ 	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 1.5px;
+
+color: #FFFFFF;
+ }
