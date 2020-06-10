@@ -368,15 +368,11 @@ margin-left: 110px;
 }
 
 
-
-.blue {
+.layer5 {
 	background: #1C343B;
-
 }
 
-
-
-.how {
+.surf {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
@@ -385,30 +381,28 @@ margin-left: 110px;
 	letter-spacing: 2.8px;
 	text-transform: uppercase;
 	color: #38BE89;
+	padding-left: 10px;
+	margin-top: 60px;
+}
+
+.line {
+	margin-left: -200px;
 }
 
 
-.trying {
+.trying{
 	font-family: Roboto;
 font-style: normal;
 font-weight: 300;
 font-size: 30px;
 line-height: 55px;
 color: #FFFFFF;
-text-align: left;
+padding-left: 100px;
+padding-top: 28px;
 }
 
 
-.line {
-	margin-left: -150px;
-}
-
-
-.layer5 {
-
-}
-
-.newbutton {
+.button3 {
 	display: inline-block;
  	font-family: Roboto;
 	font-style: normal;
@@ -423,16 +417,18 @@ text-align: left;
 	border-radius: 26px;
 	padding:18px 60px 21px 60px;
 	cursor: pointer;
+	margin-top: 54px;
 	margin-left: 100px;
-	margin-bottom: 151px;
-	margin-top:52px;
 }
 
+.button3:hover {
+	text-decoration: none;
+	color: white;
+}
 
-
-
-
-
+.layer6 {
+	padding: 100px 0;
+}
 
 .aboutus2 {
 	display: inline-block;
@@ -449,7 +445,7 @@ text-align: left;
 	border-radius: 26px;
 	padding:18px 60px 21px 60px;
 	cursor: pointer;
-	margin-bottom: 331px;
+	margin-bottom: 0;
 	margin-top:52px;
 
 }
@@ -466,7 +462,7 @@ text-align: left;
 	font-size: 40px;
 	line-height: 48px;
 	color: #113442; 
-	margin-top: 346px;
+	margin-top: 150px;
 	text-align:left;
 }
 
@@ -483,6 +479,7 @@ text-align: left;
 }
 
 
-.foto {
-	margin-bottom: 207px;
+.img-fluid2 {
+	padding-left: 65px;
+	margin-top: 100px;
 }
