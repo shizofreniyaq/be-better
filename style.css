@@ -569,6 +569,7 @@ padding-top: 28px;
 
 
 .real  {
+	position:absolute;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
@@ -577,6 +578,25 @@ padding-top: 28px;
 	text-align: center;
 	letter-spacing: 2.6px;
 	color: #26BA7E;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	transform:translateY(-50%);
+	z-index:2;
+	padding-bottom: 270px;
+}
+
+
+.life {
+	position: absolute;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 65px;
+	line-height: 45px;
+	text-align: center;
+	color: #FFFFFF;
 	position: absolute;
 	left: 0;
 	width: 100%;
@@ -584,5 +604,161 @@ padding-top: 28px;
 	top: 50%;
 	transform:translateY(-50%);
 	z-index:3;
+	padding-bottom: 80px;
+}
 
+.amet {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 25px;
+}
+
+.readmore {
+	display: inline-block;
+ 	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	padding-left:5px;	
+	letter-spacing: 1.5px;
+	color: white;
+	background: #1C343B;
+	border-radius: 26px;
+	padding:18px 70px 20px 70px;
+	cursor: pointer;
+	margin-top:25px;
+	text-align:center;
+	mix-blend-mode: normal;
+	opacity: 0.09;
+	background: url(images/adults-analysis-brainstorming-1661004.png);
+}
+
+
+
+.layer7{
+	margin-top: 130px;
+}
+
+.look {
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+color: #1C343B;
+}
+
+
+.cup {
+	padding-top: 23px;
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #546D76;
+
+}
+
+
+.cup1 {
+	padding-top: 148px;
+	padding-left: 100px;
+}
+
+
+.point{
+	padding-top: 23px;
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #546D76;
+}
+
+.point1 {
+	padding-left: 100px;
+	padding-top: 148px;
+}
+
+
+
+.ball {
+	padding-top: 23px;
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #546D76;
+}
+
+
+.ball1 {
+	padding-left: 100px;
+	padding-top: 148px;
+}
+
+
+
+.tv {
+	padding-top: 23px;
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #546D76;
+}
+
+.tv1 {
+	padding-left: 100px;
+	padding-top: 152px;
+}
+
+
+.cacke {
+	padding-top: 23px;
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+color: #546D76;
+}
+
+
+.cacke1 {
+	padding-left: 85px;
+	padding-top: 127px;
+}
+
+
+.music {
+	padding-top: 23px;
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+color: #546D76;
+}
+
+
+.music {
+	padding-left: 85px;
+	padding-top: 127px;
 }
