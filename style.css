@@ -666,7 +666,6 @@ font-size: 18px;
 line-height: 26px;
 text-align: center;
 color: #546D76;
-
 }
 
 
@@ -730,6 +729,12 @@ color: #546D76;
 }
 
 
+
+.column2 {
+	margin-left: 15px;
+	margin-right: 15px
+}
+
 .cacke {
 	padding-top: 23px;
 	font-family: Roboto;
@@ -738,11 +743,12 @@ font-weight: normal;
 font-size: 18px;
 line-height: 26px;
 color: #546D76;
+text-align: center;
 }
 
 
 .cacke1 {
-	padding-left: 85px;
+	padding-left: 100px;
 	padding-top: 127px;
 }
 
@@ -755,10 +761,259 @@ font-weight: normal;
 font-size: 18px;
 line-height: 26px;
 color: #546D76;
+text-align: center;
 }
 
 
-.music {
-	padding-left: 85px;
+.music1 {
+	padding-left: 100px;
 	padding-top: 127px;
+}
+
+
+.drink {
+	padding-top: 23px;
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+color: #546D76;
+text-align: center;
+}
+
+
+
+.drink1 {
+	padding-left: 110px;
+	padding-top: 127px;
+}
+
+
+.dumbbell {
+	padding-top: 23px;
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+color: #546D76;
+text-align: center;
+}
+
+
+.dumbbell1 {
+	padding-left: 100px;
+	padding-top: 127px;
+}
+
+
+.layer8 {
+	background: #F6F6F3;
+	margin-top: 190px;
+}
+
+
+.microsoft {
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 48px;
+color: #113442;
+padding-top: 247px;
+}
+
+
+.text-lorem {
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+color: #546D76;
+padding-top: 50px;
+
+}
+
+
+.img-fluid3 {
+	padding-top: 150px;
+	padding-left: 45px;
+}
+
+
+.readmore3 {
+	display: inline-block;
+ 	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	padding-left:5px;	
+	letter-spacing: 1.5px;
+	color: white;
+	background: #26BA7E;
+	border-radius: 26px;
+	padding:18px 60px 21px 60px;
+	cursor: pointer;
+	margin-bottom: 0;
+	margin-top:52px;
+	margin-bottom: 207px;
+}
+
+
+
+.last-page {
+	background: url(images/footer-img.jpg) no-repeat 50% 0%;
+	background-size: cover;
+	padding-top: 296px;
+	padding-bottom: 234px;
+	max-height: 1000px;
+}
+
+.last-text {
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 62px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+.energy  {
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 25px;
+}
+
+
+.become2 {
+	display: inline-block;
+ 	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	padding-left:5px;	
+	letter-spacing: 1.5px;
+	color: white;
+	background: #26BA7E;
+	border-radius: 26px;
+	padding:18px 60px 21px 60px;
+	cursor: pointer;
+	margin-bottom: 0;
+	margin-top:55px;
+	margin-bottom: 303px;
+
+}
+
+
+.become2:hover {
+	text-decoration: none;
+	color: black;
+}
+
+
+.hover {
+	background: #FFFFFF;
+	padding-bottom: 75px;
+}
+
+.company2 {
+	font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 50px;
+color: #606469;
+padding-left: 50px;
+}
+
+
+.Privatlivspolitik {
+	font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 50px;
+color: #606469;
+padding-left: 10px;
+
+}
+
+.Presse {
+	font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 50px;
+color: #606469;
+}
+
+.Kontakt {
+	font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 50px;
+color: #606469;
+}
+
+
+.linkedin {
+	font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 50px;
+text-align: right;
+color: #606469;
+padding-right: 20px;
+}
+
+
+.linkedin:hover {
+	text-decoration: none;
+}
+
+
+.facebook {
+	font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 50px;
+text-align: right;
+color: #606469;
+padding-right: 30px;
+}
+
+.facebook:hover {
+	text-decoration: none;
+}
+
+
+.instagram {
+	font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 50px;
+text-align: right;
+color: #606469;
+padding-right: 50px;
+}
+
+.instagram:hover {
+	text-decoration: none;
 }
