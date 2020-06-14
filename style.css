@@ -256,7 +256,7 @@ font-weight: bold;
 font-size: 20px;
 line-height: 21px;
 color: #113442;
-margin-left: 110px;
+margin-left: 100px;
 margin-top: 80px;
 width: 500px;
 }
@@ -272,7 +272,8 @@ color: #546D76;
 margin-top: 10px;
 text-align: left;
 width: 500px;
-margin-left: 110px;
+text-align: left;
+padding-left: 100px;
 }
 
 
@@ -296,7 +297,7 @@ margin-left: 110px;
 .sunny {
 	position: absolute;
 	margin-top: 75px;
-	left: 50px;
+	left: 40px;
 }
 
 
@@ -304,6 +305,7 @@ margin-left: 110px;
 .gray {
 	background: #F1F0EC;
 	margin-top: 187px;
+	padding: 250px 0 150px
 }
 
 
@@ -316,7 +318,6 @@ margin-left: 110px;
 	text-align: center;
 	letter-spacing: -1px;
 	color: #113442;
-	margin-top: 250px;
 	text-align: center;
 	max-width: 100%;
 }
@@ -340,7 +341,8 @@ margin-left: 110px;
 
 
 .combined {
-	margin-left: 70px;
+	text-align: center;
+	width: 100%
 }
 
 .shape {
@@ -364,7 +366,20 @@ margin-left: 110px;
 	cursor: pointer;
 	margin-left:380px;
 	margin-bottom: 151px;
-	margin-top:97px;
+}
+.btn_custom {
+	display: inline-block;
+ 	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	letter-spacing: 1.5px;
+	color: black;
+	background: #26BA7E;
+	border-radius: 26px;
+	padding:18px 60px 21px 60px;
 }
 
 
@@ -461,8 +476,7 @@ padding-top: 28px;
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 48px;
-	color: #113442; 
-	margin-top: 150px;
+	color: #113442; 	
 	text-align:left;
 }
 
@@ -508,7 +522,7 @@ padding-top: 28px;
 }
 
 .doubleside {
-	padding-top: 220px;
+	
 }
 
 
@@ -521,7 +535,6 @@ padding-top: 28px;
 	line-height: 45px;
 	text-align: center;
 	color: #FFFFFF;
-	
 	text-align: center;
 	cursor: pointer;
 
@@ -584,7 +597,7 @@ padding-top: 28px;
 	top: 50%;
 	transform:translateY(-50%);
 	z-index:2;
-	padding-bottom: 270px;
+	padding-bottom: 330px;
 }
 
 
@@ -597,14 +610,11 @@ padding-top: 28px;
 	line-height: 45px;
 	text-align: center;
 	color: #FFFFFF;
-	position: absolute;
-	left: 0;
 	width: 100%;
 	text-align: center;
 	top: 50%;
 	transform:translateY(-50%);
 	z-index:3;
-	padding-bottom: 80px;
 }
 
 .amet {
@@ -635,11 +645,16 @@ padding-top: 28px;
 	cursor: pointer;
 	margin-top:25px;
 	text-align:center;
-	mix-blend-mode: normal;
-	opacity: 0.09;
+	background: rgba(255, 255, 255, 0);
+	border: solid 1px;
+	background: white;
 	background: url(images/adults-analysis-brainstorming-1661004.png);
 }
 
+.readmore:hover {
+	text-decoration: none;
+	color: black;
+}
 
 
 .layer7{
@@ -669,11 +684,6 @@ color: #546D76;
 }
 
 
-.cup1 {
-	padding-top: 148px;
-	padding-left: 100px;
-}
-
 
 .point{
 	padding-top: 23px;
@@ -684,11 +694,6 @@ font-size: 18px;
 line-height: 26px;
 text-align: center;
 color: #546D76;
-}
-
-.point1 {
-	padding-left: 100px;
-	padding-top: 148px;
 }
 
 
@@ -705,10 +710,6 @@ color: #546D76;
 }
 
 
-.ball1 {
-	padding-left: 100px;
-	padding-top: 148px;
-}
 
 
 
@@ -723,16 +724,14 @@ text-align: center;
 color: #546D76;
 }
 
-.tv1 {
-	padding-left: 100px;
-	padding-top: 152px;
-}
+
 
 
 
 .column2 {
 	margin-left: 15px;
-	margin-right: 15px
+	margin-right: 15px;
+	padding-top: 125px;
 }
 
 .cacke {
@@ -747,10 +746,6 @@ text-align: center;
 }
 
 
-.cacke1 {
-	padding-left: 100px;
-	padding-top: 127px;
-}
 
 
 .music {
@@ -765,10 +760,6 @@ text-align: center;
 }
 
 
-.music1 {
-	padding-left: 100px;
-	padding-top: 127px;
-}
 
 
 .drink {
@@ -784,10 +775,6 @@ text-align: center;
 
 
 
-.drink1 {
-	padding-left: 110px;
-	padding-top: 127px;
-}
 
 
 .dumbbell {
@@ -802,15 +789,12 @@ text-align: center;
 }
 
 
-.dumbbell1 {
-	padding-left: 100px;
-	padding-top: 127px;
-}
 
 
 .layer8 {
 	background: #F6F6F3;
 	margin-top: 190px;
+	padding:142px 0 125px;
 }
 
 
@@ -821,7 +805,6 @@ font-weight: bold;
 font-size: 40px;
 line-height: 48px;
 color: #113442;
-padding-top: 247px;
 }
 
 
@@ -860,7 +843,6 @@ padding-top: 50px;
 	cursor: pointer;
 	margin-bottom: 0;
 	margin-top:52px;
-	margin-bottom: 207px;
 }
 
 
@@ -1016,4 +998,10 @@ padding-right: 50px;
 
 .instagram:hover {
 	text-decoration: none;
+}
+
+
+.m_top97 {margin-top: 97px;}
+.pad_top_148 {
+	padding-top: 148px
 }
