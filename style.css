@@ -1005,3 +1005,40 @@ padding-right: 50px;
 .pad_top_148 {
 	padding-top: 148px
 }
+
+
+<header>
+  <div class="container">
+  
+  </div>
+</header>
+<!-- ОСНОВНОЕ СОДЕРЖИМОЕ -->
+<section>
+  <div class="container">
+    <div class="row">
+      <!-- MAIN -->
+      <main class="col-md-8 col-lg-9">
+      
+      </main>
+      <!-- ASIDE -->
+      <div class="col-md-4 col-lg-3">
+        <div class="row">
+          <!-- ASIDE #1 -->
+          <aside class="col-sm-6 col-md-12">
+        
+          </aside>
+          <!-- ASIDE #2 -->
+          <aside class="col-sm-6 col-md-12">
+        
+          </aside> 
+        <div class="row">
+      </div>      
+    </div>
+  </div>  
+</section>
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+  
+  </div>  
+</footer>
